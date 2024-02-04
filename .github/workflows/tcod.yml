@@ -19,6 +19,7 @@ jobs:
           cd code
           git config user.email "github-actions@github.com"
           git config user.name "GitHub Actions"
+          git revert 8b41f5c
           git revert db47847
           cd ..
 
